@@ -40,6 +40,7 @@ sudo venv/bin/python3 main.py
 waydroid prop set persist.waydroid.width 300
 waydroid prop set persist.waydroid.height 800
 waydroid prop set persist.waydroid.keyboard 0
+waydroid prop set persist.waydroid.force_dpi 500
 waydroid session stop
 waydroid session start
 
