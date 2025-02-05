@@ -37,5 +37,12 @@ venv/bin/pip install -r requirements.txt
 sudo venv/bin/python3 main.py
 /bin/python3 main.py
 
+waydroid prop set persist.waydroid.width 300
+waydroid prop set persist.waydroid.height 800
+waydroid prop set persist.waydroid.keyboard 0
+waydroid session stop
+waydroid session start
+
+
 # 完成安裝
 echo "Waydroid 與 Gboard 安裝完成！"
